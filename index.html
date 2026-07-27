@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heck micro app</title>
+  </head>
+  <body>
+    <main class="desktop">
+      <button id="desktop-shortcut" class="desktop-shortcut" type="button">
+        <span class="shortcut-icon">101</span>
+        Heck
+      </button>
+
+      <section id="app-window" class="window" aria-label="Heck window">
+        <header id="title-bar" class="title-bar">
+          <strong><span class="title-icon">101</span> Heck</strong>
+          <span class="window-buttons">
+            <button id="minimize" type="button" aria-label="Minimize Heck">_</button>
+            <button id="close" type="button" aria-label="Close Heck">x</button>
+          </span>
+        </header>
+        <div id="app-surface" class="window-body">
+          <canvas id="app-canvas" aria-label="Matrix style falling letters"></canvas>
+        </div>
+      </section>
+
+      <footer class="taskbar">
+        <button type="button" class="start-button">☰ Start</button>
+        <button id="task-button" type="button">101 Heck</button>
+        <span id="status" role="status">starting</span>
+      </footer>
+    </main>
+    <script type="module" src="/dev/main.ts"></script>
+  </body>
+</html>

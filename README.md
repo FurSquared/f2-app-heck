@@ -27,9 +27,11 @@ app.activate({ reason: 'user-launch', userInitiated: true })
 
 ```sh
 npm install
+npm run dev
 npm test
 npm run build
 ```
 
-Publishing a `v*` tag runs the package checks and publishes the matching package version to GitHub Packages.
+The Vite playground provides a draggable, resizable desktop window and exercises mount, resize, suspend, activate, destroy, and reopen behavior. Its shell lives outside the package `files` allowlist.
 
+Publishing a `v*` tag runs the package checks and publishes the matching package version to GitHub Packages.
