@@ -1,6 +1,6 @@
 {
   "name": "@fursquared/f2-app-heck",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The Heck canvas micro app for FurSquared",
   "type": "module",
   "license": "MIT",
